@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Me">
+  <title>Contact Truman</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- TOP MENU -->
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About Me</a> |
+    <a href="contact.html">Contact</a> |
+    <a href="projects/project1.html">Projects</a> |
+    <a href="gallery/gallery.html">Gallery</a>
+  </nav>
+
+  <h1>Contact Me</h1>
+
+  <!-- using a form with my name that sends an email to truman.davis@du.edu -->
+  <form action="mailto:truman.davis@du.edu" method="post" enctype="text/plain">
+    <div>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    </div>
+    <br>
+    <div>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" cols="50" placeholder="Write your message here"></textarea>
+    </div>
+    <br>
+    <button type="submit">Send</button>
+  </form>
+</body>
+</html>

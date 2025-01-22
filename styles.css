@@ -1,0 +1,148 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #d3d3d3, #ffffff);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(to bottom, #e6e6fa, #dcdcdc);
+}
+
+body {
+    background: linear-gradient(to right, #28a48d, #c4f5fe);
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        text-align: left;
+    }
+}
+
+/* horizontal nav bar */
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: rgb(227, 30, 30);
+}
+
+nav a {
+    text-decoration: none;
+    color: navy;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 5px 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav a:hover {
+    color: white;
+    background-color: darkgreen;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    color: darkslateblue;
+}
+
+
+
+h1 {
+    color: navy;
+}
+
+h1 {
+    color: darkslategray;
+}
+
+h3 {
+    text-align: center;
+    color: maroon;
+    font-family: "Georgia", serif;
+    margin-top: 20px;
+}
+
+
+p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px auto;
+    max-width: 800px;
+    font-family: "Optima", sans-serif;
+    font-size: 20px;
+}
+
+
+img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 100%;
+    height: auto;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; 
+}
+
+.image-gallery img {
+    max-width: 300px;
+    flex-grow: 1;
+}
+
+
+h1 + img {
+    margin-top: 15px;
+}
+
+
+ul {
+    list-style-type: square;
+    font-size: 18px;
+    font-family: "Arial", sans-serif;
+    color: #ffffff;
+    margin: 20px auto;
+    width: fit-content;
+    padding: 10px;
+    background-color: #05005e; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+form div {
+    margin-bottom: 15px;
+}
+
+
+textarea,
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+}
