@@ -1,0 +1,5 @@
+In this project, I found the design process was fairly straightforward. As we practiced in class, I tinkered with elements and their attributes to give the website an aethetic yet functional appearance.
+I thought this assignment was pretty entertaining too. I did hit a few roadblocks. The first and biggest was creating one css file for all the different pages. This meant the format for the headers, lists, etc. were 
+uniform throughout all the pages. To me, this was fine, but I did have to change some HTML so I could have some variety in between pages. Secondly, formatting the pictures in such a way that made each page look good was tough.
+If I centered the photos, they looked bad in the gallery section. However, if I put them side by side, they looked unappealing in all the other sections. For this, I used chatGPT to walk me through and give me some ideas
+to fix the situation. Overall, this was pretty decently time consuming, but I think I got the hang of simple CSS, this engraved it into my mind. 
